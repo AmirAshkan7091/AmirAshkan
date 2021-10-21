@@ -9,7 +9,7 @@ body {
     margin: 20px;
     padding: 20px;
     /* background-color: rgb(17, 15, 12); */
-    background-image: url("/Users/aasd/work/AmirAshkan/stars-5120x2880-star-trail-galaxy-sky-4k-6k-18295.jpg");
+    background-image: url("../images/stars.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
