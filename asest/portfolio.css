@@ -1,46 +1,26 @@
-* {
-    box-sizing: border-box;
-}
-
 body {
-    font-size: medium;
+    box-sizing: border-box;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    line-height: 25px;
-    margin: 20px;
-    padding: 20px;
-    /* background-color: rgb(17, 15, 12); */
-    background-image: url("../images/stars.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+    background-color: rgb(85, 85, 85);
+    width: auto;
 }
 
 
 /* all about navbar */
 
-header {
-    margin-bottom: 20px;
+.div-navbar-tag {
+    margin: 80px;
+    margin-bottom: 100px;
     padding: 20px;
     text-align: center;
-}
-
-
-/* page name */
-
-.div-navbar-tag {
+    max-width: 100%;
     font-size: x-large;
     color: #D4AF37;
 }
 
-
-/* a place holder */
-
-.ash {
-    /* background-color: white;
-    color: tomato;
-    font-size: xx-large; */
-    clear: both;
-    margin-bottom: 90px;
+.span-1 {
+    font-size: xx-large;
+    color: #D4AF37;
 }
 
 
@@ -49,6 +29,10 @@ header {
 
 /* the activities div */
 
+.container {
+    margin: 155px;
+}
+
 .ACTIVITIES {
     height: auto;
     line-height: 70px;
@@ -56,11 +40,9 @@ header {
     font-size: 40px;
     color: #FFB404;
     float: left;
-    width: 30.4%;
-    /* padding-top: 200px; */
-    border: 5px rgba(192, 192, 192, 0.137) solid;
+    width: 33.3%;
     height: auto;
-    margin: 25px;
+    /* margin: 20px; */
     position: relative;
     overflow: hidden;
 }
@@ -74,11 +56,9 @@ header {
     font-size: 40px;
     color: #FFB404;
     float: left;
-    width: 30.4%;
-    /* padding-top: 200px; */
-    border: 5px rgba(192, 192, 192, 0.137) solid;
+    width: 33.3%;
     height: auto;
-    margin: 25px;
+    /* margin: 20px; */
     position: relative;
     overflow: hidden;
 }
@@ -92,35 +72,23 @@ header {
     font-size: 40px;
     color: #FFB404;
     float: left;
-    width: 30.4%;
-    /* padding-top: 200px; */
-    border: 5px rgba(192, 192, 192, 0.137) solid;
+    width: 33.3%;
     height: auto;
-    margin: 25px;
+    /* margin: 20px; */
     position: relative;
     overflow: hidden;
-}
-
-.span-1 {
-    max-width: 100%;
-    height: auto;
-    font-size: xx-large;
-    color: #D4AF37;
 }
 
 
 /* the activities section */
 
 .sec-ACTIVITIES {
-    max-width: 100%;
-    height: auto;
     line-height: 70px;
     text-align: center;
     font-size: 15px;
-    border: 3px rgba(235, 235, 235, 0.185) solid;
     height: auto;
     margin: 20px;
-    background-color: rgba(105, 105, 105, 0.253);
+    background-color: rgba(105, 105, 105, 0.120);
     position: relative;
     overflow: auto;
 }
@@ -132,10 +100,9 @@ header {
     line-height: 70px;
     text-align: center;
     font-size: 15x;
-    border: 3px rgba(192, 192, 192, 0.137) solid;
     height: auto;
     margin: 20px;
-    background-color: rgba(105, 105, 105, 0.253);
+    background-color: rgba(105, 105, 105, 0.120);
     position: relative;
     overflow: auto;
 }
@@ -147,10 +114,9 @@ header {
     line-height: 70px;
     text-align: center;
     font-size: 15px;
-    border: 3px rgba(192, 192, 192, 0.137) solid;
     height: auto;
     margin: 20px;
-    background-color: rgba(105, 105, 105, 0.253);
+    background-color: rgba(105, 105, 105, 0.120);
     position: relative;
     overflow: auto;
 }
@@ -167,7 +133,7 @@ header {
     line-height: 10px;
     text-align: center;
     font-size: 30px;
-    border: 2px rgba(96, 204, 246, 0.185) solid;
+    border: 2px #d4af3769 solid;
     height: 4%;
     margin: 10px;
     padding: 5%;
@@ -193,10 +159,20 @@ a:active {
 
 /* all about footer */
 
-.footer-holder {
-    padding: 20px;
+.ash {
+    width: 100px;
+    margin-top: 100px;
     clear: both;
-    margin: 66px;
+}
+
+footer {
+    padding: 20px;
+    margin: 40px;
+    clear: both;
+    margin-top: 100px;
+}
+
+.ul-footer {
     text-align: center;
     font-size: x-large;
 }

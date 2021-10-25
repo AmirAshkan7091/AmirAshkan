@@ -1,33 +1,25 @@
-* {
-    box-sizing: border-box;
-}
-
 body {
-    font-size: medium;
+    box-sizing: border-box;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     line-height: 25px;
-    margin: 20px;
-    padding: 20px;
-    /* background-color: rgb(17, 15, 12); */
-    background-image: url("../images/stars.jpg");
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(85, 85, 85);
+    /* background-image: url("../images/stars.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
     position: relative;
 }
 
 
 /* all about navbar */
 
-header {
-    margin-bottom: 20px;
+.div-navbar-tag {
+    margin: 80px;
+    margin-bottom: 240px;
     padding: 20px;
     text-align: center;
-}
-
-
-/* page name */
-
-.div-navbar-tag {
+    max-width: 100%;
     font-size: x-large;
     color: #D4AF37;
 }
@@ -38,46 +30,11 @@ header {
 }
 
 
-/* all about center of the page */
-
-.ash1 {
-    /* background-color: white;
-    color: tomato;
-    font-size: xx-large; */
-    clear: both;
-    margin: 20px;
-    height: 200px;
-    /* padding-top: 200px; */
-}
-
-.ash2 {
-    /* background-color: white;
-    color: tomato;
-    font-size: xx-large; */
-    float: left;
-    width: 33.3%;
-    height: 300px;
-    padding-top: 200px;
-}
-
-.ash3 {
-    /* background-color: white;
-    color: tomato;
-    font-size: xx-large; */
-    width: 33.3%;
-    float: left;
-    height: 300px;
-    padding-top: 200px;
-}
-
-
 /* list main */
 
 .list-holder {
-    float: left;
-    width: 33.3%;
+    width: 100%;
     text-align: center;
-    padding-top: 180px;
     font-size: 40px;
     line-height: 70px;
     color: #FFB404;
