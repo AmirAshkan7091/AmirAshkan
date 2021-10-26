@@ -134,45 +134,41 @@ body {
     text-align: center;
     font-size: 30px;
     border: 2px #d4af3769 solid;
-    height: 4%;
+    height: auto;
     margin: 10px;
     padding: 5%;
-    position: sticky;
-    overflow: hidden;
+    /* position: sticky; */
+    overflow: auto;
+    color: white;
 }
 
 
 /* getting style a tags in list main */
 
 a,
-a:hover,
-a:focus,
-a:active {
+a:hover {
     text-decoration: none;
-    color: white;
+    color: rgb(253, 250, 250);
 }
 
-.alinka {
-    color: #ffb3009a;
+.page {
+    color: #FFB404;
 }
 
 
-/* all about footer */
+/* all about a tags */
 
 .ash {
     width: 100px;
-    margin-top: 100px;
+    margin-bottom: 100px;
     clear: both;
 }
 
-footer {
+footer .ul-footer {
     padding: 20px;
     margin: 40px;
     clear: both;
     margin-top: 100px;
-}
-
-.ul-footer {
     text-align: center;
     font-size: x-large;
 }
@@ -196,19 +192,4 @@ footer {
     float: left;
     width: 33.3%;
     background-color: #ffb40410;
-}
-
-
-/* getting style to the a ta in list in footer */
-
-.socialicon1 {
-    color: #FFB404;
-}
-
-.socialicon2 {
-    color: #FFB404;
-}
-
-.socialicon3 {
-    color: #FFB404;
 }
