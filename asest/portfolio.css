@@ -1,195 +1,49 @@
 body {
-    box-sizing: border-box;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    background-color: rgb(85, 85, 85);
-    width: auto;
+    font-family: 'Times New Roman', Times, serif;
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity));
 }
 
-
-/* all about navbar */
-
-.div-navbar-tag {
-    margin: 80px;
-    margin-bottom: 100px;
-    padding: 20px;
+.container-fluid1 {
     text-align: center;
-    max-width: 100%;
-    font-size: x-large;
-    color: #D4AF37;
+    width: 100%;
+    padding-right: var(--bs-gutter-x, .75rem);
+    padding-left: var(--bs-gutter-x, .75rem);
+    margin-right: auto;
+    margin-left: auto;
+    /* display: flex; */
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity));
 }
 
-.span-1 {
-    font-size: xx-large;
-    color: #D4AF37;
+.bg-light1 {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity));
 }
 
-
-/* all about center of the page */
-
-
-/* the activities div */
-
-.container {
-    margin: 155px;
-}
-
-.ACTIVITIES {
-    height: auto;
-    line-height: 70px;
-    text-align: center;
-    font-size: 40px;
-    color: #FFB404;
-    float: left;
-    width: 33.3%;
-    height: auto;
-    /* margin: 20px; */
-    position: relative;
-    overflow: hidden;
-}
-
-
-/* the homework div */
-
-.HOMEWORK {
-    line-height: 70px;
-    text-align: center;
-    font-size: 40px;
-    color: #FFB404;
-    float: left;
-    width: 33.3%;
-    height: auto;
-    /* margin: 20px; */
-    position: relative;
-    overflow: hidden;
-}
-
-
-/* the projects div */
-
-.PROJECTS {
-    line-height: 70px;
-    text-align: center;
-    font-size: 40px;
-    color: #FFB404;
-    float: left;
-    width: 33.3%;
-    height: auto;
-    /* margin: 20px; */
-    position: relative;
-    overflow: hidden;
-}
-
-
-/* the activities section */
-
-.sec-ACTIVITIES {
-    line-height: 70px;
-    text-align: center;
-    font-size: 15px;
-    height: auto;
-    margin: 20px;
-    background-color: rgba(105, 105, 105, 0.120);
-    position: relative;
-    overflow: auto;
-}
-
-
-/* the homework section */
-
-.sec-HOMEWORK {
-    line-height: 70px;
-    text-align: center;
-    font-size: 15x;
-    height: auto;
-    margin: 20px;
-    background-color: rgba(105, 105, 105, 0.120);
-    position: relative;
-    overflow: auto;
-}
-
-
-/* the projects section */
-
-.sec-PROJECTS {
-    line-height: 70px;
-    text-align: center;
-    font-size: 15px;
-    height: auto;
-    margin: 20px;
-    background-color: rgba(105, 105, 105, 0.120);
-    position: relative;
-    overflow: auto;
-}
-
-
-/* files in box */
-
-
-/* files in activities */
-
-.f-1 {
-    max-width: 100%;
-    height: auto;
-    line-height: 10px;
-    text-align: center;
-    font-size: 30px;
-    border: 2px #d4af3769 solid;
-    height: auto;
-    margin: 10px;
-    padding: 5%;
-    /* position: sticky; */
-    overflow: auto;
+.aasd {
+    font-size: 50px;
     color: white;
 }
 
-
-/* getting style a tags in list main */
-
-a,
-a:hover {
-    text-decoration: none;
-    color: rgb(253, 250, 250);
+.aasd1 {
+    font-size: 57px;
 }
 
-.page {
-    color: #FFB404;
+.personal-div-1 {
+    background-color: rgb(173, 173, 173);
+    /* margin-top: 20px; */
+    /* margin: 40px; */
 }
 
-
-/* all about a tags */
-
-.ash {
-    width: 100px;
-    margin-bottom: 100px;
-    clear: both;
+.span-title-box {
+    font-size: xx-large;
 }
 
-footer .ul-footer {
-    padding: 20px;
-    margin: 40px;
-    clear: both;
-    margin-top: 100px;
-    text-align: center;
-    font-size: x-large;
-}
-
-
-/* getting style to the list */
-
-.li-1-footer {
-    float: left;
-    width: 33.3%;
-    background-color: #ffb40410;
-}
-
-.li-2-footer {
-    float: left;
-    width: 33.3%;
-    background-color: #ffb40410;
-}
-
-.li-3-footer {
-    float: left;
-    width: 33.3%;
-    background-color: #ffb40410;
+.a-color {
+    background-color: rgb(173, 173, 173);
+    border: white;
 }

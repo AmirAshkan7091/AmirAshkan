@@ -1,57 +1,74 @@
 body {
-    box-sizing: border-box;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    line-height: 25px;
-    margin: 0px;
-    padding: 0px;
-    background-color: rgb(85, 85, 85);
-    /* background-image: url("../images/stars.jpg");
-    background-repeat: no-repeat;
-    background-size: cover; */
-    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity));
 }
 
-
-/* all about navbar */
-
-.div-navbar-tag {
-    margin: 80px;
-    margin-bottom: 240px;
-    padding: 20px;
+.container-fluid1 {
     text-align: center;
-    max-width: 100%;
-    font-size: x-large;
-    color: #D4AF37;
+    width: 100%;
+    padding-right: var(--bs-gutter-x, .75rem);
+    padding-left: var(--bs-gutter-x, .75rem);
+    margin-right: auto;
+    margin-left: auto;
+    /* display: flex; */
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity));
 }
 
-.span-1 {
-    font-size: xx-large;
-    color: #D4AF37;
+.bg-light1 {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity));
+}
+
+.aasd {
+    font-size: 50px;
+    color: white;
+}
+
+.aasd1 {
+    font-size: 57px;
+}
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+@media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+    }
 }
 
 
 /* list main */
 
-.list-holder {
+.list-main {
     width: 100%;
     text-align: center;
     font-size: 40px;
     line-height: 70px;
-    color: #FFB404;
     overflow: auto;
 }
 
 
 /* getting style a tags in list main */
 
-a,
-a:hover,
-a:focus,
-a:active {
+.alinka,
+.alinka:hover,
+.alinka:focus,
+.alinka:active {
     text-decoration: none;
-    color: white;
+    color: rgb(167, 167, 167);
 }
 
 .alinka {
-    color: #ffb3009a;
+    color: #ffffff;
 }
