@@ -2,6 +2,7 @@ body {
     font-family: 'Times New Roman', Times, serif;
     --bs-bg-opacity: 1;
     background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity));
+    color: white;
 }
 
 .container-fluid1 {
@@ -33,12 +34,6 @@ body {
     font-size: 57px;
 }
 
-.personal-div-1 {
-    background-color: rgb(173, 173, 173);
-    /* margin-top: 20px; */
-    /* margin: 40px; */
-}
-
 .span-title-box {
     font-size: xx-large;
 }
@@ -46,4 +41,8 @@ body {
 .a-color {
     background-color: rgb(173, 173, 173);
     border: white;
+}
+
+.font-size-colori-ttl {
+    font-size: xx-large;
 }
