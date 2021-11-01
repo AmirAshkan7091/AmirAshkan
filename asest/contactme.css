@@ -1,272 +1,43 @@
-* {
-    box-sizing: border-box;
-}
-
 body {
-    font-size: medium;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    line-height: 25px;
-    margin: 20px;
-    padding: 20px;
-    /* background-color: rgb(17, 15, 12); */
-    background-image: url("../images/stars.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity));
 }
 
-
-/* all about navbar */
-
-header {
-    margin-bottom: 20px;
-    padding: 20px;
+.container-fluid1 {
     text-align: center;
+    width: 100%;
+    padding-right: var(--bs-gutter-x, .75rem);
+    padding-left: var(--bs-gutter-x, .75rem);
+    margin-right: auto;
+    margin-left: auto;
+    /* display: flex; */
+    flex-wrap: inherit;
+    align-items: center;
+    justify-content: space-between;
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity));
 }
 
-
-/* page name */
-
-.div-navbar-tag {
-    font-size: x-large;
-    color: #D4AF37;
-}
-
-.span-1 {
-    font-size: xx-large;
-    color: #D4AF37;
-}
-
-
-/* a place holder */
-
-.ash1 {
-    /* background-color: white;
-    color: tomato;
-    font-size: xx-large; */
-    clear: both;
-    margin: 20px;
-    margin-bottom: 50px;
-}
-
-
-/* all about center of the page */
-
-
-/* the two box place holder */
-
-.ash2 {
-    line-height: 70px;
-    text-align: center;
-    float: left;
-    width: 33.3%;
-    padding-top: 200px;
-    /* color: #FFB404;
-    font-size: 40px;
-    border: 12px white solid; */
-}
-
-.ash3 {
-    line-height: 70px;
-    text-align: center;
-    font-size: 40px;
-    float: left;
-    width: 33.3%;
-    padding-top: 200px;
-    /* color: #FFB404;
-    font-size: 40px;
-    border: 12px white solid; */
-}
-
-
-/* main box on the page */
-
-.contactme-box {
-    line-height: 70px;
-    text-align: center;
-    font-size: 40px;
-    color: #ffffff;
-    float: left;
-    width: 33.3%;
-    padding-top: 10px;
-    overflow: auto;
-    border: 3px rgba(192, 192, 192, 0.137) solid;
-}
-
-
-/* box inside the main box */
-
-.sec-contact {
-    max-width: 100%;
-    height: auto;
-    line-height: 70px;
-    text-align: center;
-    font-size: 15px;
-    border: 3px rgba(235, 235, 235, 0.185) solid;
-    height: auto;
-    margin: 20px;
-    background-color: rgba(105, 105, 105, 0.253);
-    position: relative;
-    overflow: auto;
-}
-
-
-/* childest box of the main to hold a tag and prograph */
-
-.f-1 {
-    max-width: 100%;
-    height: auto;
-    line-height: 30px;
-    text-align: center;
-    font-size: 20px;
-    border: 2px rgba(96, 204, 246, 0.185) solid;
-    height: 4%;
-    margin: 10px;
-    padding: 5%;
-    position: sticky;
-    overflow: hidden;
-}
-
-#a-tag-email {
-    color: turquoise;
-}
-
-
-/* getting style a tags in list main */
-
-a,
-a:hover,
-a:focus,
-a:active {
-    text-decoration: none;
+.aasd {
+    font-size: 50px;
     color: white;
 }
 
-.alinka {
-    color: #ffb3009a;
+.aasd1 {
+    font-size: 57px;
 }
 
-
-/* all about section that hold the social medias */
-
-.ash5 {
-    /* background-color: white;
-    color: tomato;
-    font-size: xx-large; */
-    clear: both;
-    margin: 20px;
-    padding-top: 250px;
-    margin: 150px;
+.bg-light1 {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity));
 }
 
-.section-holder {
-    padding: 20px;
-    clear: both;
-    margin-top: 40px;
-    text-align: center;
-    font-size: x-large;
-    overflow: auto;
+.color-1 {
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-
-/* getting style to the list in social media */
-
-.social-1 {
-    float: left;
-    width: 20%;
-    background-color: #ffb40410;
-}
-
-.social-2 {
-    float: left;
-    width: 20%;
-    background-color: #ffb40410;
-}
-
-.social-3 {
-    float: left;
-    width: 20%;
-    background-color: #ffb40410;
-}
-
-.social-4 {
-    float: left;
-    width: 20%;
-    background-color: #ffb40410;
-}
-
-.social-5 {
-    float: left;
-    width: 20%;
-    background-color: #ffb40410;
-}
-
-
-/* getting style to the a ta in list in social media */
-
-.socialicon1 {
-    color: rgb(248, 228, 141);
-}
-
-.socialicon2 {
-    color: rgb(248, 228, 141);
-}
-
-.socialicon3 {
-    color: rgb(248, 228, 141);
-}
-
-.socialicon4 {
-    color: rgb(248, 228, 141);
-}
-
-.socialicon5 {
-    color: rgb(248, 228, 141);
-}
-
-
-/* all about footer */
-
-.footer-holder {
-    padding: 20px;
-    clear: both;
-    margin-top: 40px;
-    text-align: center;
-    font-size: x-large;
-}
-
-
-/* getting style to the list in footer */
-
-.li-1-footer {
-    float: left;
-    width: 33.3%;
-    background-color: #ffb40410;
-}
-
-.li-2-footer {
-    float: left;
-    width: 33.3%;
-    background-color: #ffb40410;
-}
-
-.li-3-footer {
-    float: left;
-    width: 33.3%;
-    background-color: #ffb40410;
-}
-
-
-/* getting style to the a ta in list in footer */
-
-.page-1 {
-    color: #FFB404;
-}
-
-.page-2 {
-    color: #FFB404;
-}
-
-.page-3 {
-    color: #FFB404;
+.color-2 {
+    color: white;
 }
